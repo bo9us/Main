@@ -7,14 +7,21 @@ public class GameManager : MonoBehaviour
 {
     public CanvasGroup inventoryCG;
     
+
+
     public static GameManager instance = null;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        
         OnInventoryOpen(false);
     }
+
+ 
+
+
 
     public void OnInventoryOpen(bool isOpend)
     {
